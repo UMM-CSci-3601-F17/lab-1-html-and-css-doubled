@@ -8,10 +8,13 @@ body {
     height: 100%;
 }
 
-#main {
-    background-color: #DEDEDE;
+#main, #main-title {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+#main {
+    background-color: #DEDEDE;
     border-bottom: 5px solid black;
     min-width: 600px;
     margin: auto;
@@ -19,9 +22,9 @@ body {
 }
 
 #main-title {
+    color: #440512;
     font-family: monospace;
     font-size: 4rem;
-    color: #440512;
     text-align: center;
     padding-top: 35px;
     padding-bottom: 70px;
@@ -35,11 +38,10 @@ body {
     border: 2px solid #ABAAAA;
     border-radius: 4px;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5%;
     margin-bottom: 30px;
     padding: 10px;
-    width: 90%;
+    width: 75%;
 }
 
 .section h2 {
@@ -57,14 +59,13 @@ body {
     border-bottom: 2px solid gray;
     border-top: 2px solid gray;
     position: absolute;
-    margin: auto;
     top: 190px;
     min-width: 600px;
     width: calc(70% - 10px);
 }
 
 #style li {
-    color: #FFFFFF;
+    color: white;
     display: inline-block;
     position: relative;
     margin-bottom: 10px;
@@ -73,7 +74,7 @@ body {
 }
 
 #style ul {
-    padding-left: 3px;
+    padding-left: 3.5px;
     margin-top: 3.5px;
     margin-bottom: 0;
 }
