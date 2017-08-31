@@ -3,10 +3,8 @@
 body {
     background: url('../assets/images/bg.jpg' ) no-repeat fixed center top;
     font-family: Geneva, Arial, sans-serif;
-    box-shadow: 0 0 8px 8px white inset;
     margin: auto;
     min-width: 720px;
-    max-width: 1920px;
     padding-top: 15px;
     padding-bottom: 15px;
     height: 100%;
@@ -21,9 +19,9 @@ body {
     background-color: #DEDEDE;
     border-bottom: 5px solid black;
     margin: auto;
-    min-width: 600px;
-    max-width: 1800px;
     width: 70%;
+    min-width: 600px;
+    max-width: 1900px;
 }
 
 #main-title {
@@ -60,7 +58,6 @@ body {
 /* NAVIGATION BAR IDS AND CLASSES */
 
 #style {
-
     background-color: #171717;
     border-bottom: 2px solid gray;
     border-top: 2px solid gray;
@@ -68,7 +65,7 @@ body {
     top: 190px;
     width: 70%;
     min-width: 600px;
-    max-width: 1800px;
+    max-width: 1900px;
 }
 
 #style li {
