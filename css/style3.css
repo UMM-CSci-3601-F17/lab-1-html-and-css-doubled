@@ -1,13 +1,111 @@
-/*
-hint:
-use # in front of the name of an id from your html page
-use . in front of the name of a class of things from your html page
-use , to separate a list of things that have some shared css rule
-use float to make something locate itself on the right or left
+/* MAIN CLASS IDs */
 
-*/
+body {
+    background: url('../assets/images/bg001.jpg' ) no-repeat fixed center top;
+    font-family: Geneva, Arial, sans-serif;
+    margin: auto;
+    min-width: 720px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    height: 100%;
+}
 
-body{
-    padding: 30px;
-    background-color: #aaaaaa;
+#main, #main-title {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#main {
+    background-color: #FFFCFC;
+    border-bottom: 4px solid #6F1805;
+    border-top: 4px solid #6F1805;
+    border-left: 4px solid #6F1805;
+    border-right: 4px solid #6F1805;
+    margin: auto;
+    width: 70%;
+    min-width: 600px;
+    max-width: 1900px;
+}
+
+#main-title {
+    color: #440512;
+    font-family: 'Courier New';
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+
+
+/* CLASSES FOR DISPLAYING CONTENT */
+
+.section {
+    background-color: #DED6D5;
+    border: 2px solid #6F1805;
+    border-radius: 4px;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 75%;
+}
+
+.section h2 {
+    border-bottom: 1px solid black;
+    font-style: italic;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+
+/* NAVIGATION BAR IDS AND CLASSES */
+
+#style {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+    background-color: #171717;
+    border-bottom: 5px solid #6F1805;
+    border-top: 4px solid #6F1805;
+    border-left: 4px solid #6F1805;
+    border-right: 5px solid #6F1805;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 70%;
+    min-width: 100px;
+    max-width: 110px;
+    
+}
+
+#style li {
+    color: #FFFCFC;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+#style ul {
+    padding-left: 3.5px;
+    margin-top: 3.5px;
+    margin-bottom: 0;
+}
+
+#style a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#style a:hover {
+    color: black;
+    background-color: white;
 }
