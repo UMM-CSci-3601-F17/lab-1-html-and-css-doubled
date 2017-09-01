@@ -1,7 +1,9 @@
 /* MAIN CLASS IDs */
 
 body {
-    background: url('../assets/images/bg001.jpg' ) no-repeat fixed center top;
+    background: url('../assets/images/bg001.jpg' ) no-repeat fixed center top; /* Adds a background that completely changes the style
+                                                                                  of the web page and meshes better with the new
+                                                                                  colors */
     font-family: Geneva, Arial, sans-serif;
     margin: auto;
     min-width: 720px;
@@ -10,17 +12,11 @@ body {
     height: 100%;
 }
 
-#main, #main-title {
+#main {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-#main {
     background-color: #FFFCFC;
-    border-bottom: 4px solid #6F1805;
-    border-top: 4px solid #6F1805;
-    border-left: 4px solid #6F1805;
-    border-right: 4px solid #6F1805;
+    border: 4px solid #6F1805;
     margin: auto;
     width: 70%;
     min-width: 600px;
@@ -29,7 +25,7 @@ body {
 
 #main-title {
     color: #440512;
-    font-family: 'Courier New';
+    font-family: 'Courier New', Arial, sans-serif;
     font-size: 3rem;
     text-align: center;
     padding-top: 35px;
@@ -57,25 +53,46 @@ body {
     padding-bottom: 5px;
 }
 
+#faculty>ul>li {
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+    width: 55%; /* Instead of making the pictures into a grid, makes them into a clean list that centers nicely
+                   in the middle. */
+}
+
+#faculty-list {
+    text-align: center;
+}
+
+.pic {
+    width: 100%;
+    border: 4px solid #000000;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 2.5em;
+}
+
+.office {
+    font-size: 1.5em;
+}
 
 /* NAVIGATION BAR IDS AND CLASSES */
 
 #style {
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
 	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-bottom-right-radius: 10px; /* Changes that make the navigation bar differ from the other two style sheets,
+	                                     adding corners that align with the inner main div*/
     background-color: #171717;
-    border-bottom: 5px solid #6F1805;
-    border-top: 4px solid #6F1805;
-    border-left: 4px solid #6F1805;
-    border-right: 5px solid #6F1805;
+    border: 5px solid #6F1805; /* Adds a nice border that defines the sides of the content better */
     position: absolute;
     top: 50px;
     left: 50px;
-    width: 70%;
     min-width: 100px;
-    max-width: 110px;
+    max-width: 110px; /* Makes the navigation bar float to the left instead of in the middle like the second style
+                         sheet, making the page flow much differently*/
     
 }
 
